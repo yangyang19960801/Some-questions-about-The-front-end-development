@@ -1,0 +1,107 @@
+/* General styles */
+
+.nav {
+	position: relative;
+	width: 8em;
+	margin: 0 0 0 3em;
+}
+
+.nav__item {
+	line-height: 1;
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0;
+	color: currentColor;
+	border: 0;
+	background: none;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.nav__item:focus {
+	outline: none;
+}
+
+/* Individual styles */
+
+
+/* Kafa */
+
+.nav--kafa .nav__item {
+	margin: 0.5em 0;
+}
+
+.nav--kafa .nav__item--current {
+	pointer-events: none;
+}
+
+.nav--kafa .nav__item-inner {
+	display: block;
+	overflow: hidden;
+	width: 2.85em;
+	height: 2.85em;
+	opacity: 0.6;
+	border-radius: 50%;
+	background: #b5daab;
+	-webkit-transform: scale3d(0.65,0.65,1);
+	transform: scale3d(0.65,0.65,1);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.3s;
+	transition: transform 0.5s, opacity 0.3s;
+	-webkit-animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+	animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.nav--kafa .nav__item:not(.nav__item--current):focus .nav__item-inner,
+.nav--kafa .nav__item:not(.nav__item--current):hover .nav__item-inner {
+	opacity: 1;
+}
+
+.nav--kafa .nav__item--current .nav__item-inner {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
+}
+
+ .nav--kafa .nav__item-img {
+	display: block;
+	width: 2.5em;
+	margin: 0.5em auto 0;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+	-webkit-transition: -webkit-transform 0.5s;
+	transition: transform 0.5s;
+	-webkit-animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+	animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.nav--kafa .nav__item--current .nav__item-img {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+} 
+.nav--kafa .nav__item-title {
+	font-weight: bold;
+	line-height: 2.85em;
+	position: absolute;
+	top: 0;
+	left: 3.75em;
+	white-space: nowrap;
+	pointer-events: none;
+	opacity: 0;
+	-webkit-transform: translate3d(-15px,0,0);
+	transform: translate3d(-15px,0,0);
+	-webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+	transition: transform 0.5s, opacity 0.5s;
+	-webkit-animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+	animation-timing-function: cubic-bezier(0.2,1,0.3,1);
+}
+
+.nav--kafa .nav__item--current .nav__item-title {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.mockup-slider img{
+	width: 70%;
+	height: 50%;
+}

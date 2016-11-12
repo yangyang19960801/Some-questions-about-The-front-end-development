@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+a{color:#007bc4/*#424242*/; text-decoration:none;outline: none;}
+
+a:hover{text-decoration:underline}
+
+a:focus {outline:none; -moz-outline:none;}
+
+ol,ul{list-style:none}
+
+table{
+	border-collapse:collapse;
+	border-spacing:0
+}
+
+img{border:none}
+
+#stat{display:none}
+
+ .demo_topad{
+ 	display:none
+ }
+ 
+
+}
