@@ -1,0 +1,79 @@
+@charset utf-8;
+body{
+    font-family: "微软雅黑";
+}
+.bar {
+    height: 2.6rem;
+    background-color: #ffd302;
+    padding-right: 0rem;
+}
+.bar a{
+    padding-top: 18px;
+    color: black;
+}
+.bar .title {
+    top: 14px; 
+    }
+.content .swiper-slide img {
+    height: 420px;
+    width:100%;
+}
+.swiper-container-horizontal>.swiper-pagination {
+    bottom: 1.5rem;
+}
+.swiper-container{
+    padding-bottom: 0rem;
+}
+.content .row{
+     padding:10px 0 0 30px;
+     border-bottom: 1px solid #ccc;
+     background: white;
+}
+.content .row .col-80{
+    padding-bottom: 20px;
+    padding-right: 480px;
+    padding-top: 20px;
+}
+.content .row .col-80 del{
+    color: red;
+    font-size: 24px;
+}
+.content .row .col-20{
+    text-align: center;
+    padding-top: 40px;
+}
+.content .row .col-20 a{
+    color: black;
+}
+.content .row .col-20 span{
+    color: red;
+    font-size: 50px;
+}
+.content .row {
+     padding: 0px;
+}
+.tabs p{
+    line-height: 2em;
+}
+.row img {
+     box-shadow:none; 
+}
+#one{
+    padding-top: 40px;
+}
+.tab-item {
+     max-width:100%; 
+}
+#shopping{ 
+    background: #e6b400;
+    border-right: 1px solid yellow;
+    color: white;
+    font-size: 24px;
+
+}
+#shopping p{
+    margin: 0px; 
+}
+#nav{
+    background-color: #ffd302;
+}
