@@ -1,4 +1,19 @@
-//全站公共js库
+
+$(document).ready(function() {
+ var swiper = new Swiper('.swiper-container', {
+ 	    nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        pagination: '.swiper-pagination',
+        direction: 'vertical',
+        slidesPerView: 1,
+        paginationClickable: true,
+        spaceBetween: 30,
+        mousewheelControl: true,
+        loop:true
+
+    });
+});
+ //全站公共js库
 $(document).ready(function(e) {
 	$(".js_cell_case").click(function(){
 		console.log(0);
