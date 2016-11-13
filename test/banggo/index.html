@@ -1,0 +1,1691 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>首页</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="css/gonggong.css"/>
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/startMove.js"></script>
+</head>
+<body>
+
+
+
+
+	<div id="toper">
+		<div class="top">
+			<ul>
+				<li class="te"><img src="index-images/veo_brand_1.png"/></li>
+				<li><img src="index-images/veo_brand_2.png"/></li>
+				<li><img src="index-images/veo_brand_3.png"/></li>
+				<li><img src="index-images/veo_brand_4.png"/></li>
+				<li><img src="index-images/veo_brand_5.png"/></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+<!-- ________________________________________________________________
+                    
+                    设置顶部的邦购logo图片点击事件
+____________________________________________________________________ -->
+
+	<script type="text/javascript">
+		$(function(){
+			for(var i=0;i<$("#toper > div > ul > li").length;i++){
+				$("#toper > div > ul > li").on("click",function(){
+					$(this).addClass("te").siblings().removeClass("te");
+				})
+			}
+			
+		})
+	</script>
+
+
+
+
+<!-- ________________________________________________________________
+
+                 设置 登录，我的邦购，下载APP和微信 的鼠标经过事件
+____________________________________________________________________ -->
+	
+	<script type="text/javascript">
+		$(function(){
+			for(var i=0;i<$(".enter-xian").length;i++){
+
+				$(".enter-xian").on({
+					mouseover:function(){
+						$(this).find("div").show();		
+					},
+					mouseout:function(){
+						$(this).find("div").hide();
+					}
+				})
+			}	
+			$(".wei").on({
+				mouseover:function(){
+					$(this).find("div").show();		
+				},
+				mouseout:function(){
+					$(this).find("div").hide();
+				}
+			})
+		})
+	</script>
+
+<!-- ________________________________________________________________
+-____________________________________________________________________ -->
+
+	<div id="enter">
+		<div class="enter">
+			<div class="enter-left">欢迎来到邦购网</div>
+			<div class="enter-right">
+
+			<!-- -------------- enter-xian ----------- -->
+
+				<div class="enter-all enter-xian">
+
+			<!-- ------------------        ----------- -->
+
+					<a class="memu" href="file:///C:/Users/Administrator/Desktop/wanghan/login.html">登录</a>
+					<div class="enter-btm1">							
+						<a href="#">QQ账户登录</a>
+						<a href="#">微信账户登录</a>
+						<a href="#">微博账户登录</a>							
+					</div>
+				</div>
+
+				<div class="enter-all"><a class="memu" href="file:///C:/Users/Administrator/Desktop/wanghan/registered.html#">注册</a></div>
+				<div class="enter-all enter-xian">
+					<a class="memu" href="#" class="beck">我的邦购</a>
+					<div class="enter-btm2">							
+						<a href="#">我的订单</a>
+						<a href="#">我的积分</a>
+						<a href="#">我的收藏夹</a>
+						<a href="#">收货地址</a>							
+					</div>
+				</div>
+				<div class="enter-all"><a class="memu" href="#">会员中心</a></div>
+				<div class="enter-all back enter-xian">
+					<a class="memu" href="#" class="te"><img src="index-images/Iphone-vertical.png"/> 下载APP</a>
+					<div class="enter-btm3 te1">
+						<img src="index-images/mbshop_pic_erweima.jpg"/>
+					</div>
+				</div>
+
+
+		    <!-- --------------    wei     ----------- -->
+
+				<div class="enter-all wei">
+
+		    <!-- --------------    wei     ----------- -->
+
+					<a class="memu" href="#">微博</a>
+					<a class="memu" href="#">
+						微信
+						<div class="enter-btm4">
+							<img src="index-images/mbshop_pic_erweima.jpg"/>
+						</div>
+					</a>
+				</div>					
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div id="logo">
+		<div class="logo">
+			<div class="logo-left">
+				<img src="index-images/mbshop_new_logo2.png"/>
+			</div>
+			<div class="logo-right">
+
+
+
+
+<!-- ——————————————————————————————————————————————————————————————
+                 设置搜索输入框获得焦点和失去焦点的事件
+———————————————————————————————————————————————————————————————— -->
+				<script type="text/javascript">
+					$(function(){
+						$(".tex").on({
+							focus:function(){
+								if($(this).val("618预热会场")){
+									$(this).val("");
+								}								
+							},
+							blur:function(){
+								if($(this).val("")){
+									$(this).val("618预热会场");
+								}							
+							}
+						})
+					})
+				</script>	
+<!-- ——————————————————————————————————————————————————————————————
+                 
+———————————————————————————————————————————————————————————————— -->	
+
+
+
+				<div class="search">
+					<form action="" method="post">	
+
+						<input type="text" class="tex" value="618预热会场"/>
+
+						<input type="submit" class="btn" value="" />
+					</form>
+				</div>
+				<div class="list">
+					<a href="#">连衣裙</a><span>|</span>
+					<a href="#">T恤</a><span>|</span>
+					<a href="#">短裤</a><span>|</span>
+					<a class="te">匡威↓</a><span>|</span>
+					<a class="te" href="#">迷戈</a><span>|</span>
+					<a href="#">四件套</a>
+				</div>					
+			</div>
+			<div class="number">
+				<a href="#">购物袋<b>0</b>件</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div id="nav">
+		<div class="nav">
+			<ul>
+				<li class="te te1"><a href="#">商品分类</a></li>
+				<li class="te1"><a href="#">首页</a></li>
+				<li><a href="#"><img src="index-images/qaz.gif"/></a></li>
+				<li class="te1"><a href="#">美妆馆</a></li>
+				<li class="te1"><a href="#">热门品牌</a></li>
+				<li><a href="#"><img src="index-images/sg.gif"/></a></li>
+				<li><a href="#"><img src="index-images/dm.gif"/></a></li>
+				<li><a href="#"><img src="index-images/ggwxrzx.gif"/></a></li>
+				<li class="te2"><a href="#"><img src="index-images/mobilegai.gif"/></a></li>
+			</ul>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div id="main">
+		<div class="main1">
+			<div class="main">							
+				<div class="mainleft">
+					<ul class="box">					
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="file:///C:/Users/Administrator/Desktop/wanghan/goods-list.html">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+
+
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+
+
+
+								<div class="yin-right">
+
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+
+								<span id="ospan"></span>
+
+							</div>
+						</li>
+
+
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin yinnn">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+						<li class="box-li">
+							<dl class="dll">
+								<dt><a href="#">男装</a><em id="emm"></em></dt>
+								<dd>
+									<ul>
+										<li class="te"><a href="#">T恤</a></li>
+										<li><a href="#">衬衫</a></li>
+										<li><a href="#">休闲裤</a></li>
+										<li><a href="#">中短裤</a></li>
+										<li class="te"><a href="#">夏新品</a></li>
+									</ul>
+								</dd>
+							</dl>
+							<div class="yin">
+								<div class="yin-left">
+									<dl>
+										<dt><a href="#">热门HOT</a></dt>
+										<dd>
+											<a href="#">猴年马月</a>
+											<a href="#">质感衬衫</a>
+											<a href="#">迪斯尼系列</a>
+											<a href="#">美国队长3</a>
+											<a href="#">电影魔兽系列</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">上装TOP5</a></dt>
+										<dd>
+											<a href="#">短袖T恤</a>
+											<a href="#">POLO</a>
+											<a href="#">背心</a>
+											<a href="#">长袖T恤</a>
+											<a href="#">卫衣</a>
+											<a href="#">西装</a>
+											<a href="#">毛衣</a>
+											<a href="#">夹克</a>
+											<a href="#">短袖衬衫</a>
+											<a href="#">长袖衬衫</a>
+										</dd>
+									</dl>
+									<dl>
+										<dt><a href="#">下装PANS</a></dt>
+										<dd>
+											<a href="#">针织休闲裤</a>
+											<a href="#">牛仔中裤</a>
+											<a href="#">休闲中裤</a>
+											<a href="#">针织中裤</a>
+											<a href="#">牛仔长裤</a>
+											<a href="#">休闲长裤</a>
+											<a href="#">针织运动裤</a>
+											<a href="#">西裤</a>
+											<a href="#">收口慢跑裤</a>
+										</dd>
+									</dl>
+								</div>
+								<div class="yin-right">
+									<div class="yin-right-top">
+										<a href="#"><img src="index-images/06089.jpg"/></a>
+									</div>
+									<div class="yin-right-bottom">									
+										<dl>
+											<dt>男装热门品牌</dt>
+											<dd><a href="#"><img src="index-images/060811.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060812.jpg"/></a></dd>
+											<dd><a href="#"><img src="index-images/060813.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060814.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060815.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060816.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060817.png"/></a></dd>
+											<dd><a href="#"><img src="index-images/060818.png"/></a></dd>
+										</dl>
+									</div>
+								</div>
+								<span id="ospan"></span>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+
+<!--————————————————————————————————————————————————————————————————
+            设置左导航栏的鼠标进过事件：显示子导航栏                  
+————————————————————————————————————————————————————————————————  -->
+				<script type="text/javascript">
+					$(function(){	
+
+						//获得左侧导航栏每行导航的高度
+						
+						var aHeight=$(".dll").height();
+
+						//遍历每个
+						$.each($(".box-li"),function(){
+							$(this).on({
+								mouseover:function(){	
+									var 							
+										i=$(this).index(),
+										aHeights=15;
+										console.log(i);
+										console.log(aHeight);
+										console.log(aHeights);
+									$(this).find("em").hide();
+									$(this).find(".yin").show();
+									$(this).find("#ospan").css("top",aHeight*i+aHeights);
+								},
+								mouseout:function(){
+									$(this).find("em").show();
+									$(this).find(".yin").hide();
+								}
+							})
+						})			
+					})		
+				</script>
+<!--————————————————————————————————————————————————————————————————
+                                   
+————————————————————————————————————————————————————————————————  -->
+
+
+				<div class="maincenter">					
+					<ul id="oul">
+						<li><a href="file:///C:/Users/Administrator/Desktop/wanghan/activity.html#mz"><img src="index-images/060725.jpg"/></a></li>
+						<li><a href="file:///C:/Users/Administrator/Desktop/wanghan/activity.html#mz"><img src="index-images/06035.jpg"/></a></li>
+						<li><a href="file:///C:/Users/Administrator/Desktop/wanghan/activity.html#mz"><img src="index-images/06088.jpg"/></a></li>
+						<li><a href="file:///C:/Users/Administrator/Desktop/wanghan/activity.html#mz"><img src="index-images/fkqg720x480.jpg"/></a></li>
+					</ul>									
+					<div class="button">
+						<span class="btnleft"></span>
+						<span class="btnright"></span>
+					</div>
+					<div class="shuffling">
+						<a class="border-black" href="#">618预热会场</a>
+						<a href="#">都市风尚</a>
+						<a href="#">匡威初夏新品</a>
+						<a href="#">5件119</a>
+					</div>
+				</div>			
+				<div class="mainright">
+					<ul>
+						<li>
+							<a href="#"><img src="index-images/0608-2.jpg"/></a>
+							<div class="jishi">
+								<em class="shijian">仅剩:</em>
+								<em>00</em>	
+								:
+								<em>00</em>
+								:
+								<em>00</em>
+							</div>
+						</li>
+						<li><a href="#"><img src="index-images/0608sysg000.jpg"/></a></li>
+					</ul>
+				</div>
+
+
+
+<!--————————————————————————————————————————————————————————————————
+                  设置限时秒杀，获得时间                
+————————————————————————————————————————————————————————————————  -->
+
+				<script type="text/javascript">
+					var
+						aShi = $(".jishi"),
+						aEm  = $(".jishi").find("em"),
+						str1,
+						str2,
+						str3;
+					setInterval(function(){
+						aEm[1].innerHTML = getTime1();
+						aEm[2].innerHTML = getTime2();
+						aEm[3].innerHTML = getTime3();
+					},1000);
+					function getTime(){
+						var
+							iNow = new Date(),
+							iNew = new Date( 'July 29,2016 12:00:00' ),				
+							t    = Math.floor((iNew - iNow)/1000);	
+							return t;
+					}
+					function getTime1(){
+
+					//得到小时数					
+						str1 = Math.floor(getTime()%86400/3600);								
+						return str1;
+					}
+					function getTime2(){	
+
+					//得到分钟数
+						str2 = Math.floor(getTime()%86400%3600/60);								
+						return str2;
+					}
+					function getTime3(){	
+
+					//得到秒数
+						str3 = getTime()%60;	
+						return str3;
+					}		
+				</script>
+
+
+<!--————————————————————————————————————————————————————————————————
+                                   
+————————————————————————————————————————————————————————————————  -->
+
+			</div>
+
+
+
+			<div class="mainlunn">
+
+
+
+				<div class="btn">
+					<span class="btnleft bttn_left">
+						<img src="index-images/rec_btn_lt.png"/>
+					</span>
+					<span class="btnright bttn_right">
+						<img src="index-images/rec_btn_rt.png"/>
+					</span>
+				</div>
+
+
+
+				<div class="oul">
+					<ul class="uuu" style="width:2400px">
+
+
+						<li>
+							<a href="#">
+								<dl>
+									<dt><img src="index-images/hans.jpg"/></dt>
+									<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+									<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+								</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+						<li>
+							<a href="#">
+							<dl>
+								<dt><img src="index-images/hans.jpg"/></dt>
+								<dd class="tupian"><img src="index-images/1hs618logo.png"/></dd>
+								<dd class="wenzi">在世界各地HUGO BOSS都能够为您提供无可挑剔的设计和优雅合身的造型.</dd>
+							</dl>
+							</a>
+						</li>
+
+
+					</ul>	
+				</div>														
+			</div>
+
+
+
+
+
+<!-- ——————————————————————————————————————————————————————————————————
+                设置类名为mainlunn的div的按钮操作滑动效果
+———————————————————————————————————————————————————————————————————— -->
+
+			<script type="text/javascript">
+				var
+					aBttnLeft = $(".bttn_left")[0],
+					aBttnRight = $(".bttn_right")[0],
+					oUull = $(".uuu")[0],	
+
+			//offsetwidth:是元素相对父元素的偏移宽度。
+			//等于border+padding+width	
+						
+					iSpeed=oUull.offsetWidth/2,
+					onOff=true;															
+				aBttnLeft.onclick=function(){
+					if(!onOff){
+						onOff=true;	
+
+						//设置向左移动的距离					
+						startMove(oUull,{left:0});
+					}						
+				}		
+				aBttnRight.onclick=function(){
+					if(onOff){
+						onOff=false;
+
+					//设置向左移动的距离						
+						startMove(oUull,{left:-iSpeed});
+					}
+				}	
+			</script>
+<!-- ——————————————————————————————————————————————————————————————————
+
+———————————————————————————————————————————————————————————————————— -->
+
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="file:///D:/%E5%AD%A6%E4%B9%A0/%E4%BD%9C%E4%B8%9A/wanghan/activity.html"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="maingoods">
+				<p><img src="index-images/zymen1.png"/></p>
+				<div class="cont">
+					<div class="contleft">
+						<div class="contleft-top">
+							<a href="#"><img src="index-images/06081.jpg" /></a>
+							<ul>
+								<li class="keywords-left">
+									<a href="#">猴年马月</a>
+									<a href="#">休闲长裤</a>
+								</li>
+								<li class="keywords-right">
+									<a href="#">短袖T恤</a>
+									<a href="#">牛仔中裤</a>
+								</li>
+							</ul>
+						</div>
+						<div class="conleft-foot">
+							<ul>
+								<li><a href="#"><img src="index-images/metersbonwe160-45.png"/></a></li>
+								<li><a href="#"><img src="index-images/fhgs.jpg"/></a></li>
+								<li><a href="#"><img src="index-images/160-45STAGE.png"/></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="contright">
+						<ul>
+							<li><a href="#"><img src="index-images/M1nan1234.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/0608477-236men.png"/></a></li>
+							<li><a href="#"><img src="index-images/SL4-0607N.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06071.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06072.jpg"/></a></li>
+							<li><a href="#"><img src="index-images/06073.jpg"/></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			</div>
+	</div>
+
+
+
+
+
+
+
+	<div id="mainfooter">
+		<div class="mainfooter">
+
+
+
+			<div class="mainfooter-left">
+				<ul>
+					<li><a href="#"><img src="index-images/zyshare01.png"/></a></li>
+					<li><a href="#"><img src="index-images/zyshare02.png"/></a></li>
+					<li><a href="#"><img src="index-images/zyshare03.png"/></a></li>
+				</ul>
+			</div>
+
+
+
+			<div class="mainfooter-right">
+				<div class="content-top">
+					<a href="#"><img src="index-images/060819.jpg"/></a>
+				</div>
+				<div class="content-foot">
+					<ul>
+						<li class="te">
+							<a href="#"><img src="index-images/indexonline.png"/></a>
+							<p>在线客服</p>
+						</li>
+						<li class="te">
+							<a href="#"><img src="index-images/indexopinion.png"/></a>
+							<p>意见反馈</p>
+						</li>
+						<li>
+							<a href="#"><img src="index-images/indexsurvey.png"/></a>
+							<p>问卷调查</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<div id="shopbottom">
+		<div class="shopbottom">
+			<div class="shopbottom-top">
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+				<dl>
+					<dt>新手指南</dt>
+					<dd><a href="#">注册新用户</a></dd>
+					<dd><a href="#">用户协议</a></dd>
+					<dd><a href="#">找回密码</a></dd>
+				</dl>
+			</div>
+			<div class="shopbottom-foot">
+				<p>CopyRight © 2000-2016, 版权所有 上海美特斯邦威服饰股份有限公司 banggo.com 沪ICP备05033127号</p>
+				<span>
+					<a href="#"><img src="index-images/lz_beian_h40.png"/></a>
+					<a href="#"><img src="index-images/lz_shgs_h40.png"/></a>
+					<a class="te" href="#"><img src="index-images/lz_szfw_h40.png"/></a>
+				</span>
+			</div>
+		</div>
+	</div>
+
+
+<!-- ——————————————————————————————————————————————————————————————————
+                 设置返回顶部和在线咨询
+—————————————————————————————————————————————————————————————————————— -->
+
+	<div id="backtop">
+		<a class="feiji" href="javascript:;"></a>
+		<a class="lianxi" href="javascript:;"></a>
+	</div>
+
+
+
+
+<!-- ——————————————————————————————————————————————————————————————————
+                 设置返回顶部和在线咨询
+—————————————————————————————————————————————————————————————————————— -->
+
+	<script type="text/javascript">
+		window.onload=function(){	
+
+
+
+			var
+				aFei=$(".feiji")[0],
+
+				//获取网页不滑动时可见区域高度							
+				oHeight=document.documentElement.clientHeight;
+
+			window.onscroll=function(){
+
+				//垂直方向滚动的值
+				var scrollTop=document.documentElement.scrollTop||document.body.scrollTop;
+				
+
+                //判断是否鼠标滑动高度大于网页可见区域高度，若大于则让返回顶部的
+                //图片显示出来，并成块状显示，若小于网页可见区域高度，则不显示。
+				if(scrollTop>oHeight){
+					aFei.style.display="block";
+				}else{
+					aFei.style.display="none";
+				}
+			}
+
+
+/*------------------ 设置点击返回顶部所用的时间 ------------------------------------*/
+			
+			aFei.onclick=function(){
+				timeer=setInterval(function(){
+					var scrolltop=document.documentElement.scrollTop||document.body.scrollTop;
+					var iSpeed=Math.floor(-scrolltop/15);
+					if(scrolltop<=0){
+						clearInterval(timeer);
+					}
+					document.documentElement.scrollTop=document.body.scrollTop=scrolltop+iSpeed;			
+				},30);
+			}
+		}
+	</script>
+
+
+</body>
+</html>

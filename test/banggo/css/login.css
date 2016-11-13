@@ -1,0 +1,213 @@
+.Cwrap{
+	width:980px;
+	height:auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.rarea{
+	width:340px;
+}
+.rarea .seltab{
+	height:40px;
+	position:relative;
+}
+.rarea .seltab h3{
+	top:4px;
+	color:#666;
+	height:34px;
+	cursor: pointer;
+	line-height: 34px;
+	text-align: center;
+	position: absolute;
+	border:1px solid #ccc;
+	background:#fff;
+}
+.rarea .seltab .cstyle{
+	top:0;
+	padding-top:3px;
+	border-top:2px solid #c00;
+	border-bottom:0;
+}
+.rarea .seltab .t1{
+	width:108px;
+	left:0;
+}
+.rarea .seltab .t2{
+	width:108px;
+	left:109px;
+}
+.rarea .seltab .t3{
+	width:120px;
+	left:218px;
+}
+.formarea{
+	width:338px;
+	border:1px solid #ccc;
+	border-top:0;
+	padding-top:1px;
+	margin-top:-1px;
+}
+.Lovh{
+	font-size:12px;
+	overflow: hidden;
+}
+.formbox{
+	height:278px;
+}
+.tips{
+	color:#999;
+}
+form{
+	display:block;
+	line-height:1.6em;
+}
+.Lmt30{
+	margin-top:30px;
+}
+.ltext{
+	width:80px;
+	color:#666;
+	line-height:28px;
+	font-size:14px;
+	text-align: right;
+}
+.input1{
+	border:1px solid #ccc;
+	width:220px;
+	height:26px;
+	line-height: 26px;
+	padding:0 5px;
+	margin-right:10px;
+}
+.verify_text{
+	padding-left:80px;
+	height:22px;
+	line-height: 22px;
+}
+.Lovh a{
+	color:#333;
+}
+.Lmt5{
+	margin-top:5px;
+}
+.Lmt10{
+	margin-top:10px;
+}
+.Lfll{
+	float: left;
+}
+.LI_main .checkbox1{
+	line-height: 20px;
+	vertical-align: -3px;
+}
+input[type="checkbox"]{
+	margin:3px 3px 3px 4px;
+}
+.Lmr20{
+	margin-right:20px;
+}
+.Lmr10{
+	margin-right:10px;
+}
+
+.Lmt10 .retrieve{
+	color:#333;
+	text-decoration: underline;
+	line-height: 30px;
+}
+.LI_main .bottom{
+	width:318px;
+	text-align: center;
+	padding:15px 0;
+	margin:0 auto;
+	border-top:1px solid #f1f1f1;
+	overflow: hidden;
+	zoom:1;
+}
+.btn_login{
+	background:url(../registered-img/buttons.png) no-repeat 0 0;
+	display:inline-block;
+	height:34px;
+	line-height:34px;
+	width:104px;
+	cursor: pointer;
+}
+.btn_login span{
+	display:inline-block;
+	text-indent: -9999px;
+}
+.LI_main .bottom span{
+	line-height: 27px;
+	display:inline-block;
+	float: left;
+}
+.Lmr5{
+	margin-right:5px;
+}
+.btn_common{
+	display:inline-block;
+	height:27px;
+	line-height: 27px;
+	padding-left:15px;
+	cursor: pointer;
+	color:#404040;
+	background:url(../registered-img/buttons.png) no-repeat 0 -699px;
+}
+.btn_common span{
+	line-height:27px;
+	display:inline-block;
+	background:url(../registered-img/buttons.png) no-repeat right -643px;
+	padding-right:15px;
+	cursor: pointer;
+}
+.login_surport { 
+	border: 1px solid #efefef; 
+	padding: 0; 
+	margin:0 auto 10px;	 
+	width: 300px;
+}
+.login_surport h4 { 
+	background: #efefef; 
+	margin: 0; 
+	line-height: 32px; 
+	padding: 0 8px; 
+	font-weight: normal;
+}
+.login_surport p { 
+	margin: 0; 
+	overflow: hidden; 
+	zoom: 1;
+}
+.login_surport a { 
+	background: #FFF url(../registered-img/icon_login.png) -9999px -9999px no-repeat; 
+	cursor: pointer; 
+	padding: 0; 
+	border: 1px solid #efefef; 
+	margin: -1px; 
+	display: block; 
+	float: left; 
+	width: 100px; 
+	height: 30px; 
+	line-height: 30px; 
+	text-indent: 38px;
+}
+.login_surport a:hover { 
+	color: #c30; 
+	text-decoration: none;
+}
+.login_surport a.icon_qq { 
+	background-position: 7px -6px; 
+}
+.login_surport a.icon_alipay { 
+	background-position: 7px -56px; 
+}
+.login_surport a.icon_weibo { 
+	background-position: 7px -195px; 
+}
+.login_surport a.icon_renren { 
+	background-position: 7px -145px; 
+}
+.login_surport a.icon_weixin {
+	 background-position: 7px -101px;
+}

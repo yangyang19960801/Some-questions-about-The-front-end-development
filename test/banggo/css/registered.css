@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"宋体";
+	line-height:1.6em;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+dl,dt,dd,ul,li{
+	list-style:none;
+}
+img{
+	border:0;
+	vertical-align: bottom;
+}
+input{
+	outline: none;
+}
+/*---------重置-----------*/
+#top,#main,#foot{
+	width:100%;
+	height:auto;
+}
+.top,.main,.foot{
+	width:980px;
+	height:auto;
+	margin:0 auto;
+}
+/*--------top end---------*/
+.main-top{
+	border-bottom:2px solid #999;
+}
+.main-top a{
+	display:block;
+	height:26px;
+	line-height: 26px;
+	width:160px;
+	text-align: center;
+	color:#fff;
+	background:url(../registered-img/buttonSkin.png) no-repeat 0 -450px;
+}
+.main-bottom{
+	margin-top:10px;
+	height:auto;
+	overflow: hidden;
+	border:1px solid #ccc;
+}
+.main-left{
+	float: left;
+	padding:20px 0 45px 15px;
+}
+.main-tatle{
+	width:700px;
+	height:40px;
+	line-height: 40px;
+	font-size:14px;
+	margin-left:15px;
+	color:#333;
+	border-bottom:1px dotted #e6e6e6;
+}
+.text{
+	width:700px;
+	height:auto;
+	overflow: hidden;
+	padding-top:10px;
+	margin-top:15px;
+}
+.tet{
+	margin-top:0;
+	padding-top:0;
+}
+.tex{
+	width:120px;
+	line-height: 30px;
+	font-size:14px;
+	color:#666;
+	text-align: right;
+	float: left;
+}
+.lf11{
+	width:567px;
+	height:60px;
+	float: left;
+}
+.lf11 .input1{
+	border:1px solid #ababab;
+	width:240px;
+	height:28px;
+	float: left;
+	font-size:12px;
+	line-height: 28px;
+	padding-right:5px;
+	margin-right:10px;
+	outline: none;
+	background:url(../registered-img/iconSkin.png) repeat-x 0 -700px;
+}
+.lf11 .input2{
+	width:120px;
+}
+.text .tips{
+	width:305px;
+	margin:-2px 0 0 0;
+	display: inline-block;
+	color:#999;
+	font-size:12px;
+	float: left;
+}
+
+.text .tee{
+	width:154px;
+}
+.text .tee a{
+	float: right;
+	color:#333;
+}
+.errorinfo {
+	width:560px;
+	font-size:12px;
+	height: 20px;
+	color: #F60;
+	display: block;
+	line-height: 20px;
+}
+.btn{
+	width:580px;
+	padding:10px 0 0 120px;
+}
+.btn a{
+	display:inline-block;
+	width:152px;
+	height:34px;
+	line-height: 34px;
+	margin-right:20px;
+	background:url(../registered-img/buttons.png) no-repeat -226px -168px;
+}
+.main-right{
+	float:right;
+	margin-right:3px;
+}
+/*-----------main end---------*/
+.foot{
+	text-align: center;
+	padding-top:20px;
+	font-size:12px;
+	color:#333;
+}
+.foot a{
+	color:#333;
+}
+.foot a:hover{
+	text-decoration: underline;
+}
+

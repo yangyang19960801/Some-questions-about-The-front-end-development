@@ -1,0 +1,389 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:"微软雅黑";
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+}
+dl,dt,dd,ul,li{
+	list-style:none;
+}
+img{
+	border:0;
+	vertical-align: bottom;
+}
+/*---------重置-----------*/
+.top,.enter,.logo,.nav,.main1,.shopbottom,.mainfooter{
+	width:1200px;
+	height:auto;
+	margin:0 auto;
+}
+#toper,#enter,#logo,#nav,#main,#shopbottom,#mainfooter{
+	width:100%;
+	height:auto;
+}
+#toper{	
+	background:#efece8;
+}
+.top{
+	background:#efece8;
+}
+.top ul{
+	height:auto;
+	overflow:hidden;
+	margin-left:200px;
+}
+.top ul li{
+	float:left;
+	border-right:3px solid #fff;
+}
+
+/***************************************************
+****************************************************/
+
+.top ul .te{
+	background:#fff;
+}
+/***************************************************
+****************************************************/
+
+
+
+/*--------top end----------*/
+#enter{
+	border-bottom:1px solid #dcdcdc;
+}
+.enter{
+	/*border-bottom:1px solid #dcdcdc;*/
+	font-size:12px;
+	height:32px;
+}
+.enter-left{
+	float:left;
+	width:84px;
+	height:32px;
+	line-height: 32px;
+	color:#999;
+}
+.enter-right{
+	width:417px;		
+	margin-left:800px;
+}
+.enter-all{			
+	float:left;
+}
+.enter-xian{
+	position:relative;
+	border:1px solid #fff;
+	padding:0 0 10px 0;
+}
+
+.enter-xian:hover{
+	position:relative;
+	border:1px solid #b5b5b5;
+	border-bottom:1px solid #fff;
+	box-shadow: 0 0 5px #ccc;
+	padding:0 0 10px 0;
+	z-index: 150;
+}
+.enter-all .memu{
+	border:1px solid #fff;	
+	box-shadow: 0 0 5px #fff;
+	display:block;
+	color:#999;	
+	padding:10px 10px 0 10px;
+}
+
+.back .memu{
+	overflow: hidden;
+	padding:0 20px 0 10px;
+	margin-top:10px;
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) no-repeat 75px -43px;
+}
+.enter-all .beck{
+	display: block;
+	overflow: hidden;
+	padding:0 30px 0 5px;
+	margin:10px 0 0 10px;	
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) no-repeat 60px -43px;
+}
+.wei .memu{
+	float:left;
+	padding:10px 5px;
+}
+.enter-btm1,.enter-btm2,.enter-btm3,.enter-btm4{
+	z-index: 99;
+	border:1px solid #b5b5b5;
+	box-shadow: 0 0 5px #ccc;
+	display: none;
+	padding:5px;
+	background:#fff;
+	position:absolute;
+}
+.enter-btm1 a{
+	display:block;
+	width:100px;
+	padding:5px 0 0 4px;
+	line-height:16px;	
+	color:#333;
+}
+.enter-btm1,.enter-btm2,.enter-btm3{
+	margin:3px 0 0 -1px;
+}
+.enter-btm2 a{
+	color:#333;
+	width:100px;
+	display:block;
+	padding:5px 0 0 4px;
+	line-height:16px;	
+}
+.enter-btm3 {	
+	padding:15px 5px 5px 5px;
+	left:0;	
+}
+.enter-btm4{	
+	left:1150px;
+	border:0;
+	box-shadow: 0 0 0 #ccc;
+}
+.enter-all .wei,.te1 img{
+	width:140px;
+	height:140px;
+}
+/*--------------enter end------------*/
+.logo{
+	height:auto;
+	overflow: hidden;
+}
+.logo-left,.logo-right,.number{
+	float: left;
+}
+.logo-left{
+	height:55px;	
+}
+.logo-right{
+	width:750px;
+	height:40px;	
+	margin-top:25px;
+}
+.search{
+	float: left;
+	border:3px solid #d51819;	
+}
+.search input{
+	outline: none;
+	border:0;
+}
+.search .tex{
+	width:330px;
+	height:30px;
+	padding:0 5px;
+	float: left;
+}
+.search .btn{
+	width:37px;
+	height:30px;
+	float: left;
+	background:#d51819 url(../index-images/Veo_mbshop_spirit_pic.png) repeat 10px 1270px;
+}
+.list{	
+	float: left;
+	width:330px;
+	height:15px;
+	font-size:14px;
+	margin:7px 0 0 20px;
+}
+.list a{
+	float: left;
+	color:#666;
+}
+.list .te{
+	color:#d30a06;
+}
+.list span{
+	float: left;
+	padding:0 11px;
+}
+.number{
+	width:90px;
+	height:20px;
+	padding:20px 0 0 50px;
+	margin:15px 0 0 30px;
+	font-size:14px;
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) repeat 10px 1250px;
+}
+.number a{
+	color:#666;
+}
+.number a b{
+	font-weight: normal;
+	padding:2px;
+	color:#d30a06;
+}
+/*--------------logo end----------------*/
+#nav{
+	border-bottom:3px solid #333;
+	padding:5px 0 0 0;	
+}
+.nav{
+	/*border-bottom:3px solid #333;*/
+	overflow: hidden;	
+}
+.nav ul li{
+	float:left;
+	padding:0 15px;	
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 16px;
+}
+.nav ul li a{
+	color:#000;
+}
+.nav ul .te{
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) repeat 0 1331px;
+	padding-left:30px;
+	margin-right:121px;
+}
+.nav ul .te1{
+	margin-top:12px;
+}
+.nav ul .te2{
+	float: right;
+}
+/*-----------nav end------------*/
+.mainfooter{
+	height:auto;
+	overflow: hidden;
+	margin-top:53px;
+}
+.mainfooter-left{
+	float: left;
+	height:auto;	
+}
+.mainfooter-left ul{
+	height:auto;	
+	overflow: hidden;
+}
+.mainfooter-left ul li{
+	float: left;
+	border:1px solid #dcdcdc;
+	margin-right:-1px;
+}
+.mainfooter-right{
+	float:right;
+	border:1px solid #dcdcdc;
+	background:#fafafa;
+}
+.content-foot{
+	height:auto;
+}
+.content-foot ul{
+	overflow: hidden;
+	height:auto;
+}
+.content-foot ul li{
+	float:left;
+	width:120px;
+	height:89px;
+	text-align: center;
+	margin-right:-1px;	
+}
+.content-foot ul .te{
+	background:url(../index-images/indexline.png) no-repeat right center;
+}
+.content-foot ul li img{
+	margin:14px auto 8px;
+}
+.content-foot ul li p{
+	font-size:12px;
+	color:#999;
+	line-height: 16px;
+	font-weight:bold;
+}
+/*----------mainfooter end-------*/
+#shopbottom{
+	background:url(../index-images/mbshop_bottom_guide.png) repeat-x;
+}
+.shopbottom{
+	margin-top:40px;
+	background:url(../index-images/mbshop_bottom_guide.png) repeat-x;
+}
+.shopbottom-top{
+	padding-top:11px;
+	height:auto;
+	overflow: hidden;
+}
+.shopbottom-top dl{
+	float: left;
+}
+.shopbottom-top dl dt{
+	font-size:14px;
+	font-weight: bold;
+	color:#231815;
+	padding-bottom: 10px;
+	margin-bottom:5px;
+}
+.shopbottom-top dl dd{
+	width:200px;
+	padding-top:13px;
+	font-size:12px;	
+}
+.shopbottom-top dl dd a{
+	color:#231815;
+}
+.shopbottom-foot{
+	margin-top:20px;
+	padding:20px 0 5px 0;
+	border-top:1px solid #999;
+}
+.shopbottom-foot p{
+	width:1200px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	color:#787878;
+}
+.shopbottom-foot span{
+	padding-top:15px;
+	width:390px;
+	height:auto;
+	overflow: hidden;
+	text-align: center;
+	margin:0 auto;
+	display:block;
+}
+.shopbottom-foot span a{
+	float: left;
+	margin-right:11px;
+}
+.shopbottom-foot span .te{
+	margin-right:0;
+}
+/*--------------shopbottom end-----------*/
+#backtop{
+	width:60px;
+	height:auto;
+	position:fixed;
+	right:0;
+	bottom:30px;
+	display:block;
+}
+.feiji{
+	width:55px;
+	height:90px;
+	float: left;
+	display:none;
+	margin-bottom:10px;
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) repeat 0 600px;
+}
+.lianxi{
+	width:55px;
+	height:55px;
+	float: left;
+	display:block;
+	background:url(../index-images/Veo_mbshop_spirit_pic.png) repeat 0 670px;
+}
