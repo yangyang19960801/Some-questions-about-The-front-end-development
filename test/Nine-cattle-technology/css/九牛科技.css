@@ -1,0 +1,156 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family:微软雅黑;
+}
+/*nav*/
+nav{
+	opacity: .8;
+}
+.navbar-default {
+    background-color: #504b4b;
+    border-color: transparent;
+}
+.navbar-default .navbar-nav>li>a{
+    color: white;
+    padding-left: 24px;
+    padding-right: 24px; 
+}
+.navbar-default .navbar-nav>.active>a{
+	color: white;
+    padding-left: 24px;
+    padding-right: 24px;
+    background: red; 
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: red;
+}
+/*nav*/
+
+/*example服务项目*/
+#example{
+padding-bottom: 100px;
+background: #f5f5f5;
+}
+h1{
+	margin-top: 111px;
+	padding-right: 0px;
+	margin-left: 411px;
+	margin-bottom: 60px;
+}
+h2{
+	text-align: center;
+	color: white;
+}
+.col-md-3 p{
+	font-size: 16px;
+	line-height: 1.5em;
+	text-align: center;
+	color: white;
+}
+.box{
+	background: #e17658;
+	padding: 10px 0;
+}
+.box2{
+	background: #52c180;
+	padding-top: 10px;
+	padding-bottom: 67px;
+}
+.box3{
+	background: #6a1660;
+	padding-top: 10px;
+	padding-bottom: 157px;
+}
+.box4{
+	background: #d85536;
+	padding-top: 10px;
+	padding-bottom: 38px;
+}
+
+/*example服务项目*/
+/*客户案例*/
+#guster{
+	background: black;
+	padding: 60px 0;
+}
+.item .row{
+	margin-top: 60px;
+}
+.item .row img{
+	padding-bottom: 20px;
+}
+/*客户案例*/
+/*新闻中心*/
+#news{
+	background: #f5f5f5;
+	padding: 80px 0;
+}
+#news h2,#about h2{
+	color: black;
+	margin-bottom: 60px;
+}
+#news .bg{
+	background: white;
+	padding: 20px 0px 20px 10px;
+	margin-bottom: 20px;
+}
+#news .bg .p{
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+#news .bg .p a{
+	color: black;
+	font-size: 16px;
+}
+#news .bg .p a:hover{
+	color: red;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+    margin-left: -70px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev {
+    margin-right: -70px;
+}
+
+/*新闻中心*/
+/*关于九牛*/
+#about{
+	padding: 60px 0;
+	font-size: 12px;
+}
+#about .center{
+	text-align: center;
+	margin-bottom: 20px;
+}
+#about .center small,#about strong{
+	font-size: 14px;
+}
+/*关于九牛*/
+/*联络我们*/
+#our{
+	text-align: center;
+	color: white;
+	background: #1f1e26;
+	padding: 90px 0 60px;
+}
+#our #big{
+	font-size: 50px;
+}
+#our #big span{
+	color: #e90040;
+}
+#our a{
+	padding: 60px 10px;
+	border-radius: 50%;
+}
+#our a:hover{
+	background: red;
+}
+#our .text{
+	margin-bottom: 80px;
+}
+/*联络我们*/
