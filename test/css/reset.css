@@ -200,7 +200,7 @@ transform: rotate(45deg);
 .nav .active a{border-bottom:2px solid #42b8f1;color:#42b8f1;background:#212325;}
 
 /*个人简介*/
-.head{margin-top:60px;display:inline-block;width:169px;height:169px;border:3px solid #17181a;overflow:hidden;position:relative;}
+.head{margin-top:40px;display:inline-block;width:169px;height:169px;border:3px solid #17181a;overflow:hidden;position:relative;}
 .head,.head img{border-radius:200px;}
 .head{opacity:0;
 transform: translate(0px,-300px);
