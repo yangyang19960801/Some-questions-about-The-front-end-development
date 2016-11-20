@@ -388,7 +388,7 @@ transform: translate(0px,400px);
 .time_end{display:block;content:"";position:absolute;width:5px;height:5px;background:#42b7f0;border:2px solid #fff;border-radius:100px;left:-5px;}
 .time_start{top:-4px;}
 .time_end{bottom:-4px;}
-.jingli{color:#848484;height:30px;line-height:30px;position:relative;margin:40px 0 0 0;opacity:0;}
+.jingli{color:#848484;height:30px;line-height:20px;position:relative;margin:40px 0 0 0;opacity:0;}
 .jingli_time{background:#181a1c;width:160px;font-size:14px;position:absolute;right:30px;}
 .jingli_time:after{content:"";position:absolute;right:-16px;top:8px;width:0;height:0px;border-width:8px;;border-style:solid;border-color:transparent transparent transparent #181a1c;}
 .jingli_time:before{content:"";position:absolute;right:-31px;top:15px;width:5px;height:0px;border-bottom:1px solid #636c71;}
