@@ -1,4 +1,4 @@
-/** * fullPage 1.4.5 */
+﻿/** * fullPage 1.4.5 */
 html,body { margin: 0; padding: 0; }
 #superContainer { height: 100%; position: relative; }
 .section { position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -200,7 +200,7 @@ transform: rotate(45deg);
 .nav .active a{border-bottom:2px solid #42b8f1;color:#42b8f1;background:#212325;}
 
 /*个人简介*/
-.head{margin-top:40px;display:inline-block;width:169px;height:169px;border:3px solid #17181a;overflow:hidden;position:relative;}
+.head{display:inline-block;width:169px;height:169px;border:3px solid #17181a;overflow:hidden;position:relative;}
 .head,.head img{border-radius:200px;}
 .head{opacity:0;
 transform: translate(0px,-300px);
