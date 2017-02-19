@@ -1,0 +1,208 @@
+@charset "utf-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+body,
+html{
+  width:100%;
+  height:100%;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.topnav{
+  border:0;
+  font-size:16px;
+  box-shadow:0 1px rgba(0,0,0,0.3);
+  background-color: #ccc;
+}
+.topnav .navbar-header a{
+  color:#20242f;
+  height:50px;
+  line-height:50px;
+  text-decoration:none;
+  padding: 16px 10px;
+}
+.topnav .navbar-header a:hover{
+  background-color: #f0f0f0;
+}
+.topnav ul.navbar-nav li{
+  margin-bottom: -5px;
+}
+.topnav ul.navbar-nav li a{
+  background-color: #bbb;
+  color:#000;
+  /*height:50px;*/
+  /*line-height:50px;*/
+  text-decoration:none;
+  
+ 
+}
+.topnav ul.navbar-nav li a:hover{
+  background-color: #f0f0f0;
+}
+/*top background*/
+
+.intro-header{
+  height:855px;
+  padding-top: 50px;
+  text-align: center;
+  background: url("http://bannerdesign.cn/wp-content/uploads/2015/12/20151212112750100.png") no-repeat center center fixed;
+  background-size: cover;
+}
+.bg-overlay{
+  background:rgba(0,0,0,0.3);
+  height: 855px;
+}
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+/*big header*/
+.intro-message > h1 {
+    font-size: 5em;
+    color: #20242f;
+}
+.intro-divider{
+  margin:40px auto;
+  width:800px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+/*small header*/
+.intro-message>h3{
+  color:  #20242f;
+}
+
+/* social buttons*/
+.btn{
+  background-color:  #20242f;
+  color:#fff;
+/*   border:2px outset rgba(0,0,0,0.9); */
+/*   text-shadow:1px 1px 1px #000; */
+}
+.btn:hover{
+  color:#fff;
+  background-color: #000;
+  border: 2px outset rgba(0,0,0,1);
+  transform:scale(1.1);
+}
+
+/* section2*/
+.content-section-a{
+  padding: 50px 0;
+  background: url("http://img.hb.aicdn.com/e074e5e9a3232f95e38e0b2c3f94d2ba9f3e5a7364dfe-V9xI1z_fw658") no-repeat center center fixed;
+  background-size: cover;
+  height: 855px;
+}
+.bg-overlay2{
+  margin-top: -50px;
+  background-color: rgba(0,0,0,0.5);
+  height: 855px;
+}
+
+/*words about me*/
+.bg-overlay2 h2{
+  margin-top: 200px;
+}
+.bg-overlay2 h2,.bg-overlay2 p{
+  color: #fff;
+  text-align: center;
+}
+.bg-overlay2 .link{
+  color:#666;
+}
+.bg-overlay2 .link:hover{
+  color:blue;
+  text-decoration: none;
+}
+/*  头像图片*/
+.img-circle{
+  width:300px;
+  height:300px;
+  margin-top:200px;
+  border: 5px solid #e5bb81;
+}
+
+
+/*my love*/
+.bg-overlay3{
+  background-color: rgba(0,0,0,0.5);
+  height: 855px;
+}
+section{
+  color:#fff;
+  background: url('http://img.hb.aicdn.com/7bd9b80a84bed660d43b8fa55e7387c5e3e6615b177088-TbMXY0_fw658') no-repeat center center fixed;
+  background-size: cover;
+}
+.section-heading{
+  margin-top: 150px;
+}
+.section-subheading{
+  color: #fff;
+}
+
+.love-item{
+  padding: 7px;
+  height: 308px;
+  overflow: hidden;
+}
+#love .love-item{
+  margin: 0 0 15px;
+  right:0;
+  border:1px outset rgba(255,255,255,0.6);
+}
+#love .love-item:hover{
+  transition:0.5s;
+  box-shadow: 5px 10px 5px rgba(0,0,0,0.9)
+}
+#love .love-item .love-link{
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+
+}
+#love .love-item .love-link .love-hover{
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition:0.5s;
+}
+#love .love-item .love-link .love-hover:hover{
+  opacity: 1;
+}
+#love .love-item .love-link .love-hover .love-hover-content{
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+#love .love-item .love-link .love-hover .love-hover-content h3,
+#love .love-item .love-link .love-hover .love-hover-content h4{
+  
+}
+#love .love-item .love-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
